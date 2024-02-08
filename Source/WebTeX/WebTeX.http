@@ -1,0 +1,6 @@
+@WebTeX_HostAddress = http://localhost:5086
+
+GET {{WebTeX_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
