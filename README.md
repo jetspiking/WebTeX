@@ -14,9 +14,12 @@ This project directly returns the PDF as a response. This can cause problems in 
 # Run
 **Operating System:** 
 `Linux Ubuntu 22.04 LTS`
+
 **Start Server:** 
 `chmod +x WebTeX`
+
 `./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
+
 **Reverse Proxy:**
 Utilized `nginx` to forward to localhost configuration.
 
