@@ -12,15 +12,12 @@ This project directly returns the PDF as a response. This can cause problems in 
 <img src="https://raw.githubusercontent.com/jetspiking/WebTeX/main/Images/WebTeXDemo.png" Width="400">
 
 # Run
-**Operating System:** 
+- **Operating System:** 
 `Linux Ubuntu 22.04 LTS`
-
-**Start Server:** 
+- **Start Server:** 
 `chmod +x WebTeX`
-
-`./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
-
-**Reverse Proxy:**
+- `./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
+- **Reverse Proxy:**
 Utilized `nginx` to forward to localhost configuration.
 
 # Thank you for using WebTeX
