@@ -12,7 +12,7 @@ This project directly returns the PDF as a response. This can cause problems in 
 <img src="https://raw.githubusercontent.com/jetspiking/WebTeX/main/Images/WebTeXDemo.png" Width="400">
 
 # Prerequisites
-A TeX distribution must be installed. TeX Live was utilized for this project and can be installed by running `sudo apt-get install texlive-full`. `WebTeX` utilizes `Eldyn`. Prior to running `chmod +x ELDYN-lin-x64` should be performed.
+A TeX distribution must be installed. TeX Live was utilized for this project and can be installed by running `sudo apt-get install texlive-full`. `WebTeX` utilizes `Eldyn`. Prior to running `chmod +x ELDYN-lin-x64` should be performed. Otherwise `WebTeX` will not have the required permission to launch `Eldyn` and start the file manipulation.
 
 # Run
 - **Operating System:** `Linux Ubuntu 22.04 LTS`
