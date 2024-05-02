@@ -19,10 +19,8 @@ A TeX distribution must be installed. TeX Live was utilized for this project and
 - **Start Server:** `chmod +x WebTeX`
 `./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
 - **Reverse Proxy:** Utilized `nginx` to forward to localhost configuration.
-- **Certbot**
-Certbot can be utilized to install a Let's Encrypt certificate:
+- **Certificate:** Utilized `certbot` to install a Let's Encrypt certificate:
 `sudo apt-get install certbot python3-certbot-nginx`
-
 `sudo certbot --nginx -d webtex.nl`
 
 # Thank you for using WebTeX
