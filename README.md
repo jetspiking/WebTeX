@@ -12,11 +12,11 @@ This project directly returns the PDF as a response. This can cause problems in 
 <img src="https://raw.githubusercontent.com/jetspiking/WebTeX/main/Images/WebTeXDemo.png" Width="400">
 
 # Prerequisites
-A TeX distribution must be installed. TeX Live was utilized for this project and can be installed by running `sudo apt-get install texlive-full`.
+A TeX distribution must be installed. TeX Live was utilized for this project and can be installed by running `sudo apt-get install texlive-full`. `WebTeX` utilizes `Eldyn`. Prior to running `chmod +x ELDYN-lin-x64` should be performed.
 
 # Run
 - **Operating System:** `Linux Ubuntu 22.04 LTS`
-- **Start Server:** `chmod +x WebTeX`
+- **Start Server:** `chmod +x WebTeX` 
 `./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
 - **Reverse Proxy:** Utilized `nginx` to forward to localhost configuration.
 - **Certificate:** Utilized `certbot` to install a Let's Encrypt certificate:
