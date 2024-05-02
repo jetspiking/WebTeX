@@ -12,7 +12,7 @@ This project directly returns the PDF as a response. This can cause problems in 
 <img src="https://raw.githubusercontent.com/jetspiking/WebTeX/main/Images/WebTeXDemo.png" Width="400">
 
 # Prerequisites
-A TeX distribution must be installed. TeX Live was utilized for this project and can be installed by running `apt-get install texlive-full`.
+A TeX distribution must be installed. TeX Live was utilized for this project and can be installed by running `sudo apt-get install texlive-full`.
 
 # Run
 - **Operating System:** `Linux Ubuntu 22.04 LTS`
@@ -22,6 +22,7 @@ A TeX distribution must be installed. TeX Live was utilized for this project and
 - **Certbot**
 Certbot can be utilized to install a Let's Encrypt certificate:
 `sudo apt-get install certbot python3-certbot-nginx`
+
 `sudo certbot --nginx -d webtex.nl`
 
 # Thank you for using WebTeX
