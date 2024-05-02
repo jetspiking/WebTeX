@@ -12,17 +12,14 @@ This project directly returns the PDF as a response. This can cause problems in 
 <img src="https://raw.githubusercontent.com/jetspiking/WebTeX/main/Images/WebTeXDemo.png" Width="400">
 
 # Run
-- **Operating System:** 
-`Linux Ubuntu 22.04 LTS`
-- **Start Server:** 
-`chmod +x WebTeX`
-- `./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
-- **Reverse Proxy:**
-Utilized `nginx` to forward to localhost configuration.
+- **Operating System:** `Linux Ubuntu 22.04 LTS`
+- **Start Server:** `chmod +x WebTeX`
+`./WebTeX` or `nohup ./WebTeX` to run in background and allow closing SSH.
+- **Reverse Proxy:** Utilized `nginx` to forward to localhost configuration.
 - **Certbot**
 Certbot can be utilized to install a Let's Encrypt certificate:
-- `sudo apt-get install certbot python3-certbot-nginx`
-- `sudo certbot --nginx -d webtex.nl`
+`sudo apt-get install certbot python3-certbot-nginx`
+`sudo certbot --nginx -d webtex.nl`
 
 # Thank you for using WebTeX
 If you enjoy this software series, you could consider supporting me by purchasing application [Colorpick - PRO](https://store.steampowered.com/app/1388790/Colorpick__PRO). For a few dollars (depending on Steam pricing in region) you receive a DRM-free Colorpick application.
